@@ -15,14 +15,20 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        const productExist = cart.find(obj => obj.id === product.id);
+        console.log(cart.length)
+        if(cart.length < 4){
+            if(!productExist){
+                const newCart = [...cart, product];
+                setCart(newCart);
+            }
+        }
     }
-    const chooseAgain = () => {
+    const chooseAnother = () => {
         const emptyCart = [];
         setCart(emptyCart);
     }
-    const choose1ForMe = () => {
+    const choose = () => {
         const oneArray = cart[Math.floor(Math.random() * cart.length)]
 
         const oneCart = [oneArray];
@@ -48,8 +54,8 @@ const Shop = () => {
                 <Cart
 
                     cart={cart}
-                    chooseAgain={chooseAgain}
-                    choose1ForMe={choose1ForMe}>
+                    chooseAnother={chooseAnother}
+                    choose={choose}>
                 </Cart>
             </div>
         </div >
