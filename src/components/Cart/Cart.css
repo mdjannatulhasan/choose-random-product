@@ -1,0 +1,14 @@
+button{
+    border-width: 1px;
+}
+.choose{
+    background-color: rgb(0, 255, 255);
+    padding: 8px 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.chooseAnother{
+    background-color: rgb(6, 231, 126);
+    padding: 8px 20px;
+    font-weight: 600;
+}
