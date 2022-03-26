@@ -1,2 +1,2 @@
-### <a href="https://product-choose-assignment8.netlify.app/">Live link</a>
+### Live link
 https://product-choose-assignment8.netlify.app/
