@@ -1,0 +1,56 @@
+[
+    {
+        "id": "sku-202201",
+        "name": "Dell Inspiron 15 3510",
+        "price": 39000,
+        "img": "https://www.ryanscomputers.com/storage/products/small/dell-inspiron-15-3510-intel-cdc-n4020-156-inch-11640426165.webp"
+    },
+    {
+        "id": "sku-202202",
+        "name": "Acer Extensa 15 EX215",
+        "price": 41500,
+        "img": "https://www.ryanscomputers.com/storage/products/small/acer-extensa-15-ex215-52-384m-10th-gen-intel-core-11600768608.webp"
+    },
+    {
+        "id": "sku-202203",
+        "name": "Lenovo IdeaPad Slim 3i 15ITL",
+        "price": 47000,
+        "img": "https://www.ryanscomputers.com/storage/products/small/lenovo-ideapad-slim-3i-15itl-intel-core-i3-1005g1-41635148574.webp"
+    },
+    {
+        "id": "sku-202204",
+        "name": "Dell Vostro 14 3400 Intel Core i3",
+        "price": 56000,
+        "img": "https://www.ryanscomputers.com/storage/products/small/dell-vostro-14-3400-intel-core-i3-1115g4-14-inch-71632804618.webp"
+    },
+    {
+        "id": "sku-202205",
+        "name": "Dell Inspiron 15 3511",
+        "price": 48500,
+        "img": "https://www.ryanscomputers.com/storage/products/small/dell-inspiron-15-3511-intel-core-i3-1115g4-156-11639206083.webp"
+    },
+    {
+        "id": "sku-202206",
+        "name": "Nexstgo SU03 Intel Core i5 8250U",
+        "price": 50000,
+        "img": "https://www.ryanscomputers.com/storage/products/small/nexstgo-su03-8th-gen-intel-core-i5-8250u-matt-21581766907.webp"
+    },
+    {
+        "id": "sku-202207",
+        "name": "Lenovo IdeaPad Slim 3i 15ITL6",
+        "price": 70800,
+        "img": "https://www.ryanscomputers.com/storage/products/small/lenovo-ideapad-slim-3i-15itl6-11th-gen-intel-core-11636810342.webp"
+    },
+    {
+        "id": "sku-202208",
+        "name": "Acer Nitro 7 AN715-51 Intel core i5",
+        "price": 102000,
+        "img": "https://www.ryanscomputers.com/storage/products/small/acer-nitro-7-an715-51-intel-core-i5-9300h-156-41632804887.webp"
+    },
+    {
+        "id": "sku-202209",
+        "name": "Lenovo IdeaPad Slim 3i 15IIL",
+        "price": 45500,
+        "img": "https://www.ryanscomputers.com/storage/products/small/lenovo-ideapad-slim-3i-iil-10th-gen-intel-core-i3-11594899464.webp"
+    }
+]

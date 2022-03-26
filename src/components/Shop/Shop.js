@@ -17,12 +17,12 @@ const Shop = () => {
     const handleAddToCart = (product) => {
         const productExist = cart.find(obj => obj.id === product.id);
         console.log(cart.length)
-        if(cart.length < 4){
-            if(!productExist){
+        if (cart.length < 4) {
+            if (!productExist) {
                 const newCart = [...cart, product];
                 setCart(newCart);
             }
-        }else{
+        } else {
             alert("You can not select more than 4 products");
         }
     }
@@ -31,13 +31,17 @@ const Shop = () => {
         setCart(emptyCart);
     }
     const choose = () => {
-        const oneArray = cart[Math.floor(Math.random() * cart.length)]
+        if (cart.length > 0) {
+            const oneArray = cart[Math.floor(Math.random() * cart.length)]
 
-        const oneCart = [oneArray];
-        setCart(oneCart);
+            const oneCart = [oneArray];
+            setCart(oneCart);
 
 
-        alert('We have selected "'+oneArray.name+'"');
+            alert('We have selected "' + oneArray.name + '"');
+        }else{
+            alert('Please add something to cart');
+        }
     }
     return (
         <div className='shop-container'>
