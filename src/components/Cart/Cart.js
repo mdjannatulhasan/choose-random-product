@@ -6,7 +6,7 @@ const Cart = (props) => {
 
     return (
         <div className='cart'>
-            <h3>Selected Laptop</h3>
+            <h2>Selected Laptop</h2>
 
             {cart.length === 0 && (
                 <div className='cart-warning'>
@@ -14,13 +14,13 @@ const Cart = (props) => {
                 </div>
             )}
             {cart.map((item) => (
-                < h6 > {item.name}</h6>
+                <p> {item.name}</p>
             ))
             }
             <div>
                 <button className="choose" onClick={() => choose()}>Select one for me</button></div>
             <div>
-                <button className="chooseAnother" onClick={() => chooseAnother()}>Choose Another</button></div>
+                <button className="chooseAnother" onClick={() => chooseAnother()}>Choose Again</button></div>
         </div >
     );
 };

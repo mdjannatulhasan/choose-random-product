@@ -34,7 +34,7 @@ const Shop = () => {
         const oneArray = cart[Math.floor(Math.random() * cart.length)]
 
         const oneCart = [oneArray];
-        // setCart(oneCart);
+        setCart(oneCart);
 
 
         alert('We have selected "'+oneArray.name+'"');
