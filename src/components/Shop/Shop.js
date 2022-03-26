@@ -22,6 +22,8 @@ const Shop = () => {
                 const newCart = [...cart, product];
                 setCart(newCart);
             }
+        }else{
+            alert("You can not select more than 4 products");
         }
     }
     const chooseAnother = () => {
@@ -32,10 +34,10 @@ const Shop = () => {
         const oneArray = cart[Math.floor(Math.random() * cart.length)]
 
         const oneCart = [oneArray];
-        setCart(oneCart);
+        // setCart(oneCart);
 
 
-        alert('It is best.use it .Click ok');
+        alert('We have selected "'+oneArray.name+'"');
     }
     return (
         <div className='shop-container'>
